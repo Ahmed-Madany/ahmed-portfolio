@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet-async";
+import { useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
@@ -8,40 +8,28 @@ import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
-  return (
-    <>
-      <Helmet>
-        <title>Portfolio | مطور React و WordPress | خريج ITI</title>
-        <meta
-          name="description"
-          content="بورتفوليو مطور ويب محترف متخصص في React و WordPress. خريج معهد ITI مع خبرة واسعة في تطوير تطبيقات الويب الحديثة."
-        />
-        <meta
-          name="keywords"
-          content="React, WordPress, مطور ويب, ITI, تطوير مواقع, برمجة, Frontend Developer"
-        />
-        <meta name="author" content="Developer Portfolio" />
-        <meta property="og:title" content="Portfolio | مطور React و WordPress" />
-        <meta
-          property="og:description"
-          content="بورتفوليو مطور ويب محترف متخصص في React و WordPress."
-        />
-        <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://yourportfolio.com" />
-      </Helmet>
+  useEffect(() => {
+    document.title = "Portfolio | مطور React و WordPress | خريج ITI";
+    
+    // Set meta description
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute("content", "بورتفوليو مطور ويب محترف متخصص في React و WordPress. خريج معهد ITI مع خبرة واسعة في تطوير تطبيقات الويب الحديثة.");
+    }
+  }, []);
 
-      <div className="min-h-screen" dir="rtl">
-        <Navbar />
-        <main>
-          <HeroSection />
-          <AboutSection />
-          <ProjectsSection />
-          <SkillsSection />
-          <ContactSection />
-        </main>
-        <Footer />
-      </div>
-    </>
+  return (
+    <div className="min-h-screen" dir="rtl">
+      <Navbar />
+      <main>
+        <HeroSection />
+        <AboutSection />
+        <ProjectsSection />
+        <SkillsSection />
+        <ContactSection />
+      </main>
+      <Footer />
+    </div>
   );
 };
 
