@@ -4,8 +4,8 @@ import { Card, CardContent } from "@/components/ui/card";
 const highlights = [
   {
     icon: Code,
-    title: "React Developer",
-    description: "خبرة واسعة في بناء تطبيقات React تفاعلية وقابلة للتوسع",
+    title: "تطوير الواجهات",
+    description: "خبرة في بناء واجهات مستخدم تفاعلية وقابلة للتوسع",
   },
   {
     icon: Palette,
@@ -39,19 +39,19 @@ const AboutSection = () => {
           {/* Text Content */}
           <div className="order-2 lg:order-1">
             <h3 className="text-2xl font-bold text-foreground mb-6">
-              مطور ويب شغوف بالتقنية والإبداع
+              أنا أحمد صلاح
             </h3>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              أنا مطور ويب متخصص في React وWordPress، خريج معهد تكنولوجيا المعلومات (ITI). 
-              أمتلك خبرة واسعة في بناء تطبيقات ويب حديثة ومواقع إلكترونية احترافية.
+              مطوّر مواقع متخصص في WordPress وتطوير الواجهات الأمامية. لدي خبرة عملية 
+              في إنشاء مواقع سريعة ومتجاوبة وسهلة الاستخدام، مع اهتمام كبير بالأداء وجودة التنفيذ.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              أؤمن بأهمية الجمع بين التصميم الجذاب والكود النظيف لتقديم تجربة مستخدم استثنائية. 
-              أسعى دائماً لتعلم التقنيات الجديدة وتطبيق أفضل الممارسات في مشاريعي.
+              عملت على مشاريع في التجارة الإلكترونية، وشاركت في برنامج تدريبي مكثف 
+              بمعهد ITI مما ساعدني على تطوير مهاراتي العملية وحل المشكلات.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              سواء كنت تبحث عن تطوير موقع WordPress احترافي أو تطبيق React معقد، 
-              أنا هنا لمساعدتك في تحويل أفكارك إلى واقع رقمي متميز.
+              أسعى دائماً لتقديم حلول تقنية مبتكرة تلبي احتياجات العملاء 
+              وتساهم في تحقيق أهدافهم الرقمية.
             </p>
           </div>
 
