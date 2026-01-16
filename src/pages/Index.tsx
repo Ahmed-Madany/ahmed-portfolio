@@ -1,13 +1,47 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Helmet } from "react-helmet-async";
+import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/HeroSection";
+import AboutSection from "@/components/AboutSection";
+import ProjectsSection from "@/components/ProjectsSection";
+import SkillsSection from "@/components/SkillsSection";
+import ContactSection from "@/components/ContactSection";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <>
+      <Helmet>
+        <title>Portfolio | مطور React و WordPress | خريج ITI</title>
+        <meta
+          name="description"
+          content="بورتفوليو مطور ويب محترف متخصص في React و WordPress. خريج معهد ITI مع خبرة واسعة في تطوير تطبيقات الويب الحديثة."
+        />
+        <meta
+          name="keywords"
+          content="React, WordPress, مطور ويب, ITI, تطوير مواقع, برمجة, Frontend Developer"
+        />
+        <meta name="author" content="Developer Portfolio" />
+        <meta property="og:title" content="Portfolio | مطور React و WordPress" />
+        <meta
+          property="og:description"
+          content="بورتفوليو مطور ويب محترف متخصص في React و WordPress."
+        />
+        <meta property="og:type" content="website" />
+        <link rel="canonical" href="https://yourportfolio.com" />
+      </Helmet>
+
+      <div className="min-h-screen" dir="rtl">
+        <Navbar />
+        <main>
+          <HeroSection />
+          <AboutSection />
+          <ProjectsSection />
+          <SkillsSection />
+          <ContactSection />
+        </main>
+        <Footer />
       </div>
-    </div>
+    </>
   );
 };
 
