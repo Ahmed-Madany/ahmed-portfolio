@@ -8,10 +8,11 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-primary-foreground/80">
-            © {currentYear} Portfolio. جميع الحقوق محفوظة.
+            Designed by <a href="https://www.linkedin.com/in/ahmed-madany1/" className="text-primary hover:text-primary-foreground transition-colors">Ahmed Madany</a>
           </p>
           <p className="text-sm text-primary-foreground/80 flex items-center gap-1">
-            صُنع بـ <Heart className="h-4 w-4 text-destructive fill-destructive" /> باستخدام React
+            © {currentYear} . جميع الحقوق محفوظة. احمد مدني : <Heart className="h-4 w-4 text-destructive fill-destructive" />
+          
           </p>
         </div>
       </div>

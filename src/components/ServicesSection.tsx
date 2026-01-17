@@ -14,8 +14,8 @@ const services = [
   },
   {
     icon: Palette,
-    title: "تصميم واجهات المستخدم",
-    description: "تصميم واجهات حديثة وجذابة مع تجربة مستخدم سلسة",
+    title: "Frontend Developer",
+    description: "تصميم واجهات حديثة وجذابة باستخدام React JS مع تجربة مستخدم سلسة",
   },
   {
     icon: Smartphone,

@@ -69,7 +69,7 @@ const Navbar = () => {
               handleNavClick("#home");
             }}
           >
-            Portfolio
+             مدني
           </a>
 
           {/* Desktop Navigation */}

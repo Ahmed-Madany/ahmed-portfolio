@@ -1,27 +1,30 @@
-import { Code, Palette, Zap, Award } from "lucide-react";
+import { Code, Layout, Zap, Award } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const highlights = [
   {
     icon: Code,
-    title: "تطوير الواجهات",
-    description: "خبرة في بناء واجهات مستخدم تفاعلية وقابلة للتوسع",
+    title: "React Front-End",
+    description: "تطوير واجهات مستخدم حديثة باستخدام React و JavaScript",
   },
   {
-    icon: Palette,
-    title: "WordPress Expert",
-    description: "تطوير وتخصيص مواقع WordPress احترافية",
+    icon: Layout,
+    title: "WordPress Development",
+    description: "تطوير وتخصيص مواقع WordPress باستخدام Elementor و Themes مخصصة",
   },
   {
     icon: Zap,
-    title: "أداء عالي",
-    description: "تحسين سرعة المواقع وتجربة المستخدم",
+    title: "Performance & UX",
+    description: "تحسين سرعة المواقع وتجربة المستخدم على جميع الأجهزة",
   },
-  {
-    icon: Award,
-    title: "خريج ITI",
-    description: "تدريب مكثف في أحدث تقنيات تطوير الويب",
-  },
+  
+    {
+      icon: Award,
+      title: "ITI Graduate (2 Tracks)",
+      description:
+        "خريج مساري Software Fundamentals & Programming و Front-End & Cross-Platform Mobile Development من ITI",
+    },
+    
 ];
 
 const AboutSection = () => {
@@ -41,17 +44,22 @@ const AboutSection = () => {
             <h3 className="text-2xl font-bold text-foreground mb-6">
               أنا أحمد صلاح
             </h3>
+
             <p className="text-muted-foreground leading-relaxed mb-6">
-              مطوّر مواقع متخصص في WordPress وتطوير الواجهات الأمامية. لدي خبرة عملية 
-              في إنشاء مواقع سريعة ومتجاوبة وسهلة الاستخدام، مع اهتمام كبير بالأداء وجودة التنفيذ.
+              مطوّر واجهات أمامية باستخدام React، ومتخصص في تطوير مواقع WordPress.
+              أعمل على بناء مواقع سريعة ومتجاوبة مع جميع الشاشات، مع التركيز
+              على جودة الكود وتجربة المستخدم.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              عملت على مشاريع في التجارة الإلكترونية، وشاركت في برنامج تدريبي مكثف 
-              بمعهد ITI مما ساعدني على تطوير مهاراتي العملية وحل المشكلات.
-            </p>
+  خريج برنامج تدريبي مكثف بمعهد تكنولوجيا المعلومات (ITI)،
+  في مساري Software  development Fundamentals 
+  و Front-End & Cross-Platform Mobile Development.
+</p>
+
+
             <p className="text-muted-foreground leading-relaxed">
-              أسعى دائماً لتقديم حلول تقنية مبتكرة تلبي احتياجات العملاء 
-              وتساهم في تحقيق أهدافهم الرقمية.
+              هدفي هو تقديم حلول تقنية عملية تساعد العملاء على تحويل
+              أفكارهم إلى منتجات رقمية ناجحة.
             </p>
           </div>
 
@@ -61,16 +69,18 @@ const AboutSection = () => {
               <Card
                 key={item.title}
                 className="bg-card hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border-border/50"
-                style={{
-                  animationDelay: `${index * 100}ms`,
-                }}
+                style={{ animationDelay: `${index * 100}ms` }}
               >
                 <CardContent className="p-6 text-center">
                   <div className="w-14 h-14 rounded-xl bg-accent flex items-center justify-center mx-auto mb-4">
                     <item.icon className="h-7 w-7 text-accent-foreground" />
                   </div>
-                  <h4 className="font-bold text-foreground mb-2">{item.title}</h4>
-                  <p className="text-sm text-muted-foreground">{item.description}</p>
+                  <h4 className="font-bold text-foreground mb-2">
+                    {item.title}
+                  </h4>
+                  <p className="text-sm text-muted-foreground">
+                    {item.description}
+                  </p>
                 </CardContent>
               </Card>
             ))}
