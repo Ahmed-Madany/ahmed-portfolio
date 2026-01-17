@@ -1,73 +1,114 @@
-# Welcome to your Lovable project
+# Portfolio - Ahmed Madany
 
-## Project info
+بورتفوليو شخصي لمطور الويب أحمد مدني - متخصص في WordPress و Frontend Development
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 📋 نبذة عن المشروع
 
-## How can I edit this code?
+هذا المشروع هو بورتفوليو شخصي يعرض المهارات والمشاريع والخبرات في تطوير الويب. الموقع مصمم بشكل عصري ومتجاوب مع جميع الأجهزة.
 
-There are several ways of editing your application.
+## ✨ المميزات
 
-**Use Lovable**
+- 🎨 تصميم عصري وجذاب مع أنيميشن سلسة
+- 📱 متجاوب بالكامل مع جميع الأجهزة
+- ⚡ سريع الأداء باستخدام Vite
+- 🌙 دعم الوضع الداكن والفاتح
+- 🔗 روابط مباشرة لحسابات العمل الحر (مستقل، خمسات، نفذلي، Upwork)
+- 💬 دعم WhatsApp Chat Widget
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🛠️ التقنيات المستخدمة
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Vite** - Build tool سريع
+- **TypeScript** - للكود الآمن والمنظم
+- **React** - مكتبة JavaScript لبناء واجهات المستخدم
+- **shadcn/ui** - مكونات UI عالية الجودة
+- **Tailwind CSS** - Framework CSS للتصميم السريع
+- **React Router** - للتنقل بين الصفحات
+- **Lucide React** - مكتبة الأيقونات
+- **React WhatsApp Chat Widget** - ويدجت محادثة WhatsApp
 
-**Use your preferred IDE**
+## 🚀 البدء السريع
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### المتطلبات
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Node.js (الإصدار 18 أو أحدث)
+- npm أو yarn
 
-Follow these steps:
+### التثبيت والتشغيل
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# 1. استنساخ المستودع
+git clone https://github.com/Ahmed-Madany/creative-code-studio.git
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# 2. الانتقال إلى مجلد المشروع
+cd creative-code-studio
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 3. تثبيت المكتبات المطلوبة
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4. تشغيل خادم التطوير
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+سيتم فتح الموقع على `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📦 الأوامر المتاحة
 
-**Use GitHub Codespaces**
+```sh
+# تشغيل خادم التطوير
+npm run dev
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+# بناء المشروع للإنتاج
+npm run build
 
-## What technologies are used for this project?
+# معاينة البناء
+npm run preview
 
-This project is built with:
+# تشغيل الاختبارات
+npm test
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+# تشغيل الاختبارات في وضع المراقبة
+npm run test:watch
 
-## How can I deploy this project?
+# فحص الكود
+npm run lint
+```
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 📁 هيكل المشروع
 
-## Can I connect a custom domain to my Lovable project?
+```
+src/
+├── components/          # مكونات React
+│   ├── HeroSection.tsx
+│   ├── AboutSection.tsx
+│   ├── ServicesSection.tsx
+│   ├── ProjectsSection.tsx
+│   ├── ContactSection.tsx
+│   └── ui/             # مكونات shadcn/ui
+├── pages/              # صفحات التطبيق
+├── assets/             # الصور والملفات الثابتة
+├── hooks/              # Custom hooks
+└── lib/                # Utilities
+```
 
-Yes, you can!
+## 🌐 النشر
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+يمكن نشر المشروع على أي منصة مثل:
+- Vercel
+- Netlify
+- GitHub Pages
+- أي خدمة استضافة تدعم React
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 📞 التواصل
+
+- **البريد الإلكتروني**: madanyo85@gmail.com
+- **الهاتف**: +201099531916
+- **GitHub**: [Ahmed-Madany](https://github.com/Ahmed-Madany)
+- **LinkedIn**: [ahmed-madany1](https://www.linkedin.com/in/ahmed-madany1/)
+
+## 📝 الترخيص
+
+هذا المشروع مملوك لـ Ahmed Madany. جميع الحقوق محفوظة.
+
+---
+
+صُنع بـ ❤️ بواسطة Ahmed Madany
