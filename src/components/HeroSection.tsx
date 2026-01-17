@@ -63,7 +63,6 @@ const HeroSection = () => {
               <div className="absolute inset-0 bg-gradient-to-tr from-emerald-400 to-teal-400/60 rounded-full animate-spin-slow" />
               <div className="absolute inset-1 bg-[#0f172a] rounded-full overflow-hidden">
                 <div className="w-full h-full bg-gradient-to-br from-emerald-500/20 to-teal-600/20 flex items-center justify-center">
-                  {/* <span className="text-4xl md:text-5xl font-bold text-primary font-serif">أ</span> */}
                   <img src={profileImage} alt="Profile" className="w-full h-full object-cover rounded-full" />
                 </div>
               </div>
@@ -145,12 +144,12 @@ const HeroSection = () => {
               asChild
             >
               <a
-                href="https://drive.google.com/file/d/1mWuzAf126UtVdyjs97Pxo3WTP_REr1OQ/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1NHlpqtzg_IYdt3-jwDg_xeIqjkLVc578/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Download className="h-5 w-5 ml-2" />
-                تحميل السيرة الذاتية
+                عرض السيرة الذاتية
               </a>
             </Button>
           </div>
