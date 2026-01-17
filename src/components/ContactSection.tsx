@@ -42,7 +42,7 @@ const contactInfo = [
   {
     icon: Phone,
     title: "الهاتف",
-    value: "+201099531916",
+    value: "201099531916+",
   },
   {
     icon: Mail,
