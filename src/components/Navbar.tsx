@@ -69,7 +69,7 @@ const Navbar = () => {
               handleNavClick("#home");
             }}
           >
-             مدني
+             احمد مدني 
           </a>
 
           {/* Desktop Navigation */}
