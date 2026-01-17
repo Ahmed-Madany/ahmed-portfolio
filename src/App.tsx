@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import WhatsAppChat from "./components/WhatsAppChat";
 
+
 const queryClient = new QueryClient();
 
 const App = () => (

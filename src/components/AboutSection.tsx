@@ -29,14 +29,13 @@ const highlights = [
     title: "Performance & UX",
     description: "تحسين سرعة المواقع وتجربة المستخدم على جميع الأجهزة",
   },
-  
-    {
-      icon: Award,
-      title: "ITI Graduate (2 Tracks)",
-      description:
-        "خريج مساري Software Fundamentals & Programming و Front-End & Cross-Platform Mobile Development من ITI",
-    },
-    
+      {
+        icon: Award,
+        title: "خريج معهد تكنولوجيا المعلومات (ITI)",
+        description:
+          "خريج مساري Software Fundamentals & Programming و Front-End & Cross-Platform Mobile Development",
+      },
+      
 ];
 
 const AboutSection = () => {
