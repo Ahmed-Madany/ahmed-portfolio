@@ -53,7 +53,7 @@ const AboutSection = () => {
           {/* Text Content */}
           <div className="order-2 lg:order-1">
             <h3 className="text-2xl font-bold text-foreground mb-6">
-              أنا أحمد صلاح
+              أنا  المهندس احمد مدني
             </h3>
 
             <p className="text-muted-foreground leading-relaxed mb-6">
