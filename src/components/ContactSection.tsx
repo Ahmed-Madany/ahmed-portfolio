@@ -37,7 +37,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "الموقع",
-    value: "اسيوط , مصر",
+    value: "الاسكندرية , مصر",
   },
   {
     icon: Phone,
